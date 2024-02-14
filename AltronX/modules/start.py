@@ -5,14 +5,14 @@ import telethon
 
 PythonButton = [
         [
-        Button.inline("⚡️𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦⚡️", data="help_back")
+        Button.inline("🗨𝐂σммαиԃ𝐒💌", data="help_back")
         ],
         [
-        Button.url("⚡️𝗖𝗛𝗔𝗡𝗡𝗘𝗟⚡️", "https://t.me/SHIVANSH474"),
-        Button.url("⚡️𝗦𝗨𝗣𝗣𝗢𝗥𝗧⚡️", "https://t.me/mastiwithfriendsx")
+        Button.url("💘𝐂нαииє𝐋💗", "https://t.me/I_M_FIGHTER"),
+        Button.url("💢𝐒υρρσя𝐓💞", "https://t.me/ll4st_opII")
         ],
         [
-        Button.url("⚡️𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛-𝗫𝗗⚡️", "https://t.me/SHIVANSH39")
+        Button.url("💘‌🇴𝐖𝐍𝐄𝐑🌸", "https://t.me/ll4st_MIND_GAMERII")
         ]
         ]
 
@@ -33,12 +33,12 @@ async def start(event):
         AltBot = await event.client.get_me()
         BotName = AltBot.first_name
         BotId = AltBot.id
-        TEXT = f"**𝗛𝗘𝗬 [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n𝗜 𝗔𝗠  [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **✦ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗗 𝗕𝗬 :~ [𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛](https://t.me/SHIVANSH39)**\n\n"
-        TEXT += f"» **𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥 𝗦𝗣𝗔𝗠 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `3.2`\n"
-        TEXT += f"» **𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡 𝗩𝗘𝗥𝗦𝗜𝗢𝗡:** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
+        TEXT = f"**𝐇𝐞𝐲 [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n𝐈 𝐀𝐦 [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
+        TEXT += f"» **🕸‌🇩‌🇪‌🇻💟 :~ [4ST 𝐅ʏᴛᴇʀ](https://t.me/ll4st_MIND_GAMERII)**\n\n"
+        TEXT += f"» **4ST 𝐒𝐏𝐀𝐌 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `3.2`\n"
+        TEXT += f"» **𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍:** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                 event.chat_id,
-                "https://graph.org/file/c6a2ed96648fd03377dc9.jpg",
+                "https://telegra.ph/file/f5b0e7f2bd95153968e87.jpg",
                 caption=TEXT, 
                 buttons=PythonButton)
